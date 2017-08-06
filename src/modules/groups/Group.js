@@ -15,7 +15,7 @@ import CardThree from '../movies/components/CardThree';
 import ProgressBar from '../_global/ProgressBar';
 import styles from '../movies/styles/MoviesList';
 import { iconsMap } from '../../utils/AppIcons';
-
+ 
 class Group extends Component {
 	constructor(props) {
 		super(props);
@@ -84,7 +84,7 @@ class Group extends Component {
 
 	_viewMovie(movieId) {
 		this.props.navigator.showModal({
-			screen: 'movieapp.Movie',
+			screen: 'vinclub.Movie',
 			passProps: {
 				movieId
 			},

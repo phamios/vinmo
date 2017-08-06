@@ -84,7 +84,7 @@ class MoviesList extends Component {
 
 	_viewMovie(movieId) {
 		this.props.navigator.showModal({
-			screen: 'movieapp.Movie',
+			screen: 'vinclub.Movie',
 			passProps: {
 				movieId
 			},

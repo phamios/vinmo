@@ -34,7 +34,7 @@ class App extends Component {
 			tabs: [
 				{
 					label: 'Vingroup',
-					screen: 'movieapp.Group',
+					screen: 'vinclub.Group',
 					icon: iconsMap['ios-home'],
 					selectedIcon: iconsMap['ios-home'],
 					title: 'Ngôi nhà Vingroup',
@@ -42,7 +42,7 @@ class App extends Component {
 				},
 				{
 					label: 'Bản tin',
-					screen: 'movieapp.Movies',
+					screen: 'vinclub.Movies',
 					icon: iconsMap['ios-megaphone'],
 					selectedIcon: iconsMap['ios-megaphone'],
 					title: 'Bản tin',
@@ -59,7 +59,7 @@ class App extends Component {
 				},
 				{
 					label: 'Cá nhân',
-					screen: 'movieapp.Profile',
+					screen: 'vinclub.Profile',
 					icon: iconsMap['ios-person'],
 					selectedIcon: iconsMap['ios-person'],
 					title: 'Trang cá nhân',
@@ -67,7 +67,7 @@ class App extends Component {
 				},
 				{
 					label: 'P&L',
-					screen: 'movieapp.Profile',
+					screen: 'vinclub.Profile',
 					icon: iconsMap['ios-people-outline'],
 					selectedIcon: iconsMap['ios-people-outline'],
 					title: 'Ngôi nhà P&L',
@@ -75,7 +75,7 @@ class App extends Component {
 				},
 				{
 					label: 'Tự hào Vingroup',
-					screen: 'movieapp.Profile',
+					screen: 'vinclub.Profile',
 					icon: iconsMap['ios-people-outline'],
 					selectedIcon: iconsMap['ios-people-outline'],
 					title: 'Tự hào Vingroup',
@@ -83,7 +83,7 @@ class App extends Component {
 				},
 				{
 					label: 'Nâng tầm dịch vụ',
-					screen: 'movieapp.Profile',
+					screen: 'vinclub.Profile',
 					icon: iconsMap['ios-people-outline'],
 					selectedIcon: iconsMap['ios-people-outline'],
 					title: 'Nâng tầm dịch vụ',
@@ -91,7 +91,7 @@ class App extends Component {
 				},
 				{
 					label: 'Bạn cần biết',
-					screen: 'movieapp.NeedToKnow',
+					screen: 'vinclub.NeedToKnow',
 					icon: iconsMap['ios-paper-outline'],
 					selectedIcon: iconsMap['ios-paper-outline'],
 					title: 'Bạn cần biết',

@@ -84,7 +84,7 @@ class Search extends Component {
 
 	_viewMovie(movieId) {
 		this.props.navigator.push({
-			screen: 'movieapp.Movie',
+			screen: 'vinclub.Movie',
 			passProps: {
 				movieId
 			},
